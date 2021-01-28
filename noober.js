@@ -5,7 +5,9 @@
   // is refreshed or reloaded, the 'ride' variable will contain something different
   // to get started, try to write other parts of 'ride' to the JavaScript console in Chrome
   // e.g. ask 'ride' for its length or only grab the first member of the Array
-  function pageLoad() {
+  function pageLoad() {}
+
+
   console.log(ride)
   if (ride.length > 1 || ride[0].numberOfPassengers == 1 ) {
     levelOfService = 'Noober Pool'
@@ -102,10 +104,7 @@
   console.log(passenger3PickupAddressLine2)
   console.log(passenger3DropoffAddressLine1)
   console.log(passenger3DropoffAddressLine2)}
-  }
-  
-  
-  
+
 
   // these variables map to the elements on the finished page;
   // assign the proper value to each variable
